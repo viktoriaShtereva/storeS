@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boutique"
+        android:id="@+id/boutique"
+        android:drawableLeft="@drawable/diamond"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:background="@drawable/button_shape"
+      />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:id="@+id/aboutUs"
+        android:drawableLeft="@drawable/diamond"
+        android:layout_below="@+id/boutique"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:background="@drawable/button_shape"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/campaign"
+        android:id="@+id/campaign"
+        android:drawableLeft="@drawable/diamond"
+        android:layout_below="@+id/aboutUs"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:background="@drawable/button_shape"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:id="@+id/contact"
+        android:drawableLeft="@drawable/diamond"
+        android:layout_below="@+id/campaign"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:background="@drawable/button_shape"
+      />
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/itemImage1"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="30dp"
+        android:padding="5dp"
+        android:src="@drawable/image_shape"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textName"
+        android:textSize="15dp"
+        android:layout_alignTop="@+id/itemImage1"
+        android:layout_toRightOf="@+id/itemImage1"
+        android:layout_toEndOf="@+id/itemImage1"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textPrice"
+        android:textSize="10dp"
+        android:layout_below="@+id/textName"
+        android:layout_alignLeft="@+id/textName"
+        android:layout_alignStart="@+id/textName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textDescr"
+        android:layout_below="@+id/textPrice"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/wishListButton"
+        android:layout_toRightOf="@+id/itemImage3"
+        android:layout_toEndOf="@+id/itemImage3" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:id="@+id/itemImage2"
+        android:src="@drawable/image_shape"
+        android:layout_below="@+id/itemImage1"
+        android:padding="10dp"
+        android:layout_alignLeft="@+id/itemImage1"
+        android:layout_alignStart="@+id/itemImage1" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:id="@+id/itemImage3"
+        android:src="@drawable/image_shape"
+        android:layout_alignTop="@+id/itemImage2"
+        android:layout_alignRight="@+id/itemImage1"
+        android:layout_alignEnd="@+id/itemImage1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:id="@+id/wishListButton"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayoutImage"/>
+
+</RelativeLayout>
